@@ -1,0 +1,51 @@
+body {
+  background-color: #E9EEF0 !important;
+  padding: 5% 0;
+}
+
+#button {
+  background: transparent !important;
+  margin-top: 50px;
+  outline: none;
+  height: 40px;
+  width: 233px;
+  border-radius: 50px;
+  border: 2px solid #283DFF;
+  color: #283DFF;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#button:hover {
+  color: white;
+  background: #283DFF !important;
+}
+
+#button:active {
+  letter-spacing: 2px;
+}
+
+#button:after {
+  content: "Generate New Random";
+}
+
+.bootgrid-table th > .column-header-anchor > .text {
+  color: rgba(40, 61, 255, 0.4) !important;
+}
+
+.table > thead > tr > th {
+  border-bottom: 2px solid rgba(40, 61, 255, 0.4) !important;
+}
+
+.file_data {
+  margin: 50px 0;
+}
+
+.titles {
+  text-align: center;
+  color: #283DFF;
+}
+
+#grid-basic-footer {
+  display: none !important;
+}
